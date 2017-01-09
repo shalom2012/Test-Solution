@@ -1,0 +1,25 @@
+Feature: LoginFeature
+  Deals Login for Application
+
+  Scenario: Login with Valid Username and Password
+    Given Navigate to Paper cut Website
+    When I click login button
+    And I Click Continue with Google
+    And I enter following credentials
+      | Username                       | Password  |
+      | aviad.test.automation.solution | Aviad2017 |
+    And I Click Sign in Button
+    Then I see Dashboard page
+    Then Email is on Dashboard right upper corner
+    Then Label Printer with Error and A3 Printer with Warning and Reception printer in online
+    Then I see number of page this month
+    When I Cick See forecast Button
+    Then I see numbers for HP color LaserJet Pro MFP M277 PCL6 printer
+    When I change Slider to 60 days
+    Then I see forecast numbers for the same printer
+    Then I click Sign out
+
+
+
+
+
