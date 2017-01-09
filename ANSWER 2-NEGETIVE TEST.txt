@@ -1,0 +1,13 @@
+Test Case 2,
+Negative Test cases,
+
+1.Verify Dashboard Page Load - Dashboard page should load with valid details
+2.Email should not display other than right upper corner.
+3.Printer should be in order Error, Warning, online
+4.Dashboard page should not display for invalid gmail login
+5. if google deny the access user should not able to login
+6.in All Pages Email should be displayed
+7. should not accept print job when client printer is in error
+8.Without client key it should not allow to access
+9.Insights page should not display client info
+10.Insights page should start from last month
